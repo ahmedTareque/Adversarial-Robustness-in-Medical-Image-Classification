@@ -1,7 +1,5 @@
 # Adversarial Robustness in Medical Image Classification
 
-## Day 01 -- Baseline Model Development
-
 ------------------------------------------------------------------------
 
 ## 1️⃣ Project Goal (Big Picture)
@@ -15,14 +13,6 @@ adversarial attacks.
 -   Train a pneumonia classifier
 -   Measure clean (normal) performance
 -   Later evaluate robustness under adversarial perturbations
-
-------------------------------------------------------------------------
-
-## ✅ Day 01 Scope
-
--   Building a strong baseline model
--   Training it correctly
--   Evaluating performance on clean test data
 
 ------------------------------------------------------------------------
 
@@ -215,26 +205,6 @@ A strong clean baseline is required before evaluating adversarial
 robustness.
 
 If baseline is weak → robustness evaluation is meaningless.
-
-------------------------------------------------------------------------
-
-<!-- ## 9️⃣ Next Step (Day 02)
-
-Implement FGSM attack and measure:
-
-`Robustness Gap = Clean Accuracy − Adversarial Accuracy`
-
-------------------------------------------------------------------------
-
-## 📈 Day 01 Status
-
-| Component | Status
-|----------|-------------|
-| ` Dataset pipeline` | ✅ |
-| `Transfer learning model` | ✅ |
-| `Training complete` | ✅ |
-| `Test evaluation` | ✅ |
-| `Baseline established` | ✅ |
 
 ------------------------------------------------------------------------ -->
 
