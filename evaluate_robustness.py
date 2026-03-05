@@ -10,7 +10,8 @@ from training import build_model
 # ---------------------------------------------------
 
 model = build_model()
-model.load_weights("models/baseline_model.h5")
+# Change from baseline_model.h5 to baseline_best.h5
+model = tf.keras.models.load_model("models/baseline_best.h5", custom_objects={'preprocess_input': preprocess_input})
 
 # ---------------------------------------------------
 # Load test data
